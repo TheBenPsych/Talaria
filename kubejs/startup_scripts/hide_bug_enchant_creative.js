@@ -1,0 +1,39 @@
+// kubejs/startup_scripts/hide_bug_enchant_creative.js
+const bugEnchants = [
+  'nova_structures:jockey/make_drowned_into_jockey',
+  'nova_structures:jockey/spawn_bogged_horseman',
+  'nova_structures:jockey/spawn_camel_husk_jockey',
+  'nova_structures:jockey/spawn_chicken_jockey',
+  'nova_structures:jockey/spawn_hoglin_jockey',
+  'nova_structures:jockey/spawn_ravager_jockey',
+  'nova_structures:jockey/spawn_skeleton_horseman',
+  'nova_structures:jockey/spawn_stray_horseman',
+  'nova_structures:jockey/spawn_zautilus_jockey',
+  'nova_structures:jockey/spawn_zombie_horseman',
+  'nova_structures:boss_behaviour',
+  'nova_structures:boss_nether',
+  'nova_structures:librarian_level_checker',
+  'nova_structures:shulker_boss',
+  'nova_structures:shulker_miniboss',
+  'nova_structures:tavern_level_checker'
+]
+
+const tabs = [
+  'minecraft:combat',
+  'minecraft:tools_and_utilities',
+  'minecraft:ingredients'
+]
+
+tabs.forEach(tab => {
+  StartupEvents.modifyCreativeTab(tab, event => {
+    bugEnchants.forEach(id => {
+      for (let lvl = 1; lvl <= 10; lvl++) {
+        try {
+          event.remove(`minecraft:enchanted_book[stored_enchantments={"${id}":${lvl}}]`)
+        } catch (e) {
+          console.log('creative remove failed: ' + id + ' ' + lvl + ' ' + e)
+        }
+      }
+    })
+  })
+})

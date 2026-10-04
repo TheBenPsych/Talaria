@@ -1,0 +1,33 @@
+	[structures.tower]
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		tower_waystone_chance = 1.0
+
+	[structures.leviathan]
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		husk_leviathan_blade_chance = 0.05
+		leviathan_mobs_drop_sand = true
+
+	[structures.snowy_temple]
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		stray_frosted_cowl_chance = 0.05
+		snowy_temple_mobs_drop_ice = true
+
+	[structures.warped_garden]
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		drowned_warped_axe_chance = 0.05
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		drowned_coral_chance = 0.05
+
+	[structures.soul_prison]
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		skeleton_soul_cannon_chance = 0.05
+
+[items]
+	warped_axe_returns_from_void = true
+	soul_cannon_produces_fire = true

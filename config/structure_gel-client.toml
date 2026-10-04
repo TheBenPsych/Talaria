@@ -1,0 +1,17 @@
+[structure_block]
+	show_structure_block_info = true
+
+	[structure_block.show_invisible]
+		air = true
+		structure_void = true
+		barrier = true
+		light = true
+
+[building_tool]
+	thread_building_tool = true
+	# Default: 8000
+	# Range: 0 ~ 1000000000
+	max_clone_compile_time = 8000
+
+[fixes]
+	fix_spawner_minecart_render = true

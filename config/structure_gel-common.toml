@@ -1,0 +1,25 @@
+[building_tool]
+	# Default: 64
+	# Range: 8 ~ 256
+	max_undos = 64
+	# Default: 9
+	# Range: 1 ~ 32
+	clipboard_size = 9
+	# Default: 24
+	# Range: -1 ~ 240
+	expiration_time = 24
+	vanilla_command_tracking = true
+
+[loot_sampler]
+	# Default: 50000
+	# Range: 1 ~ 1000000
+	loot_sampler_sample_size = 50000
+	loot_sampler_function_cancelling = true
+
+[debug]
+	console_debug = false
+	advanced_gel_behavior = true
+
+[fixes]
+	spawner_minecarts_drop_exp = true
+	spawn_eggs_work_on_minecarts = true

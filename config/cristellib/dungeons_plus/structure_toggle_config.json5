@@ -1,0 +1,25 @@
+{
+	"end_ruins": {
+		"end_ruins": true
+	},
+	"leviathan": {
+		"leviathan": true
+	},
+	"reanimated_ruins": {
+		"reanimated_ruins_frozen": true,
+		"reanimated_ruins_mesa": true,
+		"reanimated_ruins_mossy": true
+	},
+	"snowy_temple": {
+		"snowy_temple": true
+	},
+	"soul_prison": {
+		"soul_prison": true
+	},
+	"tower": {
+		"tower": true
+	},
+	"warped_garden": {
+		"warped_garden": true
+	}
+}

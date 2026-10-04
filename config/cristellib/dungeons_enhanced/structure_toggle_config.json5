@@ -1,0 +1,86 @@
+{
+	"black_citadel": {
+		"black_citadel": true
+	},
+	"castle": {
+		"castle": true
+	},
+	"deep_crypt": {
+		"deep_crypt": true
+	},
+	"desert_temple": {
+		"desert_temple": true
+	},
+	"desert_tomb": {
+		"desert_tomb": true
+	},
+	"druid_circle": {
+		"druid_circle": true
+	},
+	"dungeon_variant": {
+		"dungeon_variant": true
+	},
+	"elders_temple": {
+		"elders_temple": true
+	},
+	"fishing_ship": {
+		"fishing_ship": true
+	},
+	"flying_dutchman": {
+		"flying_dutchman": true
+	},
+	"hay_storage": {
+		"hay_storage": true
+	},
+	"ice_pit": {
+		"ice_pit": true
+	},
+	"jungle_monument": {
+		"jungle_monument": true
+	},
+	"large_dungeon": {
+		"large_dungeon": true
+	},
+	"miners_house": {
+		"miners_house": true
+	},
+	"monster_maze_dark": {
+		"monster_maze_dark": true
+	},
+	"monster_maze_pale": {
+		"monster_maze_pale": true
+	},
+	"mushroom_house": {
+		"mushroom_house": true
+	},
+	"pillager_camp": {
+		"pillager_camp": true
+	},
+	"pirate_ship": {
+		"pirate_ship": true
+	},
+	"ruined_building": {
+		"ruined_building": true
+	},
+	"stables": {
+		"stables": true
+	},
+	"sunken_shrine": {
+		"sunken_shrine": true
+	},
+	"tall_witch_hut": {
+		"tall_witch_hut": true
+	},
+	"tower_of_the_undead": {
+		"tower_of_the_undead": true
+	},
+	"tree_house": {
+		"tree_house": true
+	},
+	"watch_tower": {
+		"watch_tower": true
+	},
+	"witch_tower": {
+		"witch_tower": true
+	}
+}

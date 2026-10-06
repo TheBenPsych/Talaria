@@ -1,9 +1,20 @@
 {
   "config_version": "2.0.42",
-  "config_datetime": "2026-10-03_20-01-16",
-  "general": {},
+  "config_datetime": "2026-10-06_13-59-30",
+  "general": {
+    "prevent_structure_overlap": true,
+    "overlap_padding": 2,
+    "global_spacing_and_separation_modifier": 1.2
+  },
   "structure_namespaces": [],
-  "structures": [],
+  "structures": [
+    {
+      "name": "nova_structures:illager_camp",
+      "blacklisted_biomes": [
+        "minecraft:river"
+      ]
+    }
+  ],
   "structure_sets": [],
   "structure_template_pools": []
 }
